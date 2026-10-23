@@ -110,6 +110,12 @@ Erzeugt die Datei `MacTab.dmg` im Projektordner mit integrierter `Applications`-
 
 ## 📜 Changelog
 
+### Version 0.2.1 (23. Oktober 2026)
+- ⚖️ **Creative Commons CC BY-NC 4.0 Lizenzierung**: Nutzung, Vervielfältigung und Anpassung für nicht-kommerzielle Zwecke unter Namensnennung von **mrgoldsmitt**.
+- 🌐 **Open-Source GitHub Release**: Vollständige Bereitstellung des Quellcodes und SPM-Projekts auf GitHub ([mrgoldsmitt/MacTab](https://github.com/mrgoldsmitt/MacTab)).
+- 🚀 **Release- & Deployment-Automatisierung**: Einführung des Skripts `deploy_release.sh` zur automatisierten DMG-Erstellung und Release-Publizierung via GitHub CLI.
+- 📦 **In-App & DMG Lizenzhinweise**: Beilegen von `LICENSE.txt` und Lizenzvermerken im `MacTab.dmg` sowie Anzeige im Einstellungsfenster und `Info.plist`.
+
 ### Version 0.2.0 (21. Oktober 2026)
 - 🔲 **Umrandung des echten Fensters**: Das im Switcher ausgewählte Fenster wird auf dem Bildschirm farbig umrandet (klick-durchlässiges Overlay, abschaltbar).
 

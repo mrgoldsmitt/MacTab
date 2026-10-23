@@ -193,6 +193,24 @@ public struct PreferencesView: View {
                     DisclosureGroup(isExpanded: $showChangelog) {
                         VStack(alignment: .leading, spacing: 10) {
                             HStack {
+                                Text("Version 0.2.1")
+                                    .font(.subheadline)
+                                    .fontWeight(.bold)
+                                Spacer()
+                                Text("23. Okt 2026")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                            
+                            VStack(alignment: .leading, spacing: 6) {
+                                ChangelogEntry(icon: "shield.lefthalf.filled", text: "Creative Commons CC BY-NC 4.0 Lizenzierung & Veröffentlichung als Open-Source auf GitHub")
+                                ChangelogEntry(icon: "arrow.up.circle", text: "Automatisiertes Deployment-Tooling (deploy_release.sh) und Bereitstellung im MacTab.dmg")
+                            }
+                            .padding(.top, 2)
+                            
+                            Divider()
+                            
+                            HStack {
                                 Text("Version 0.2.0")
                                     .font(.subheadline)
                                     .fontWeight(.bold)
@@ -240,7 +258,7 @@ public struct PreferencesView: View {
                             Text("Changelog")
                                 .font(.headline)
                             Spacer()
-                            Text("v0.2.0")
+                            Text("v0.2.1")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
                         }
@@ -254,7 +272,7 @@ public struct PreferencesView: View {
                 
                 HStack {
                     Spacer()
-                    Text("MacTab v0.2.0 • CC BY-NC 4.0 Lizenz • mrgoldsmitt")
+                    Text("MacTab v0.2.1 • CC BY-NC 4.0 Lizenz • mrgoldsmitt")
                         .font(.caption)
                         .foregroundColor(.secondary)
                     Spacer()

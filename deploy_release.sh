@@ -39,12 +39,17 @@ if [ ! -f "$DMG_FILE" ]; then
 fi
 
 NOTES_FILE="$DIR/.release_notes_tmp.txt"
-cat << 'EOF' > "$NOTES_FILE"
-## MacTab v0.2.0
+cat << EOF > "$NOTES_FILE"
+## MacTab $TAG
 
 Ein moderner, schlanker und hochperformanter nativer Fenster-Umschalter (Alt-Tab Switcher) für macOS.
 
-### ✨ Highlights
+### ✨ Neu in dieser Version
+- **Creative Commons CC BY-NC 4.0 Lizenzierung**: Nutzung, Vervielfältigung und Weiterentwicklung frei gestattet bei Namensnennung von **mrgoldsmitt** (nicht-kommerzielle Nutzung).
+- **Offizieller GitHub Open-Source Release**: Veröffentlichung des gesamten Quellcodes, SPM-Manifests und Release-Toolings auf GitHub.
+- **Integrierte Lizenzhinweise**: Aufnahme von \`LICENSE.txt\` in das native Installations-DMG sowie In-App Lizenzanzeige.
+
+### 🌟 Kern-Features
 - **150ms AX-Timeouts & Auto-Healing Event Tap**: Verhindert Freezes und UI-Hänger unresponsiver Apps zuverlässig.
 - **4-Spalten-Raster mit 2D-Tastaturnavigation**: Übersichtliche Kacheln mit automatischem Zeilenumbruch und Pfeiltasten-Steuerung (↑/↓/←/→).
 - **MRU-Fokus (Most Recently Used)**: Zuletzt aktives Fenster steht immer direkt an erster Stelle (Index 1) für sofortiges Hin- und Herwechseln.
@@ -53,8 +58,8 @@ Ein moderner, schlanker und hochperformanter nativer Fenster-Umschalter (Alt-Tab
 - **Native Installation**: Drag-and-Drop Installation via DMG, Autostart-Unterstützung (Launch at Login) und Berechtigungsmanager.
 
 ### 📦 Installation
-1. Lade unten unter **Assets** die Datei **`MacTab.dmg`** herunter.
-2. Öffne die DMG und ziehe **MacTab** in deinen Programme-Ordner (`Applications`).
+1. Lade unten unter **Assets** die Datei **\`MacTab.dmg\`** herunter.
+2. Öffne die DMG und ziehe **MacTab** in deinen Programme-Ordner (\`Applications\`).
 3. Starte MacTab und erteile die zwei notwendigen macOS-Berechtigungen (*Bedienungshilfen* und *Bildschirmaufnahme*).
 
 ### 📄 Lizenz

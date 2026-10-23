@@ -66,6 +66,12 @@ cat << 'EOF' > "$DMG_TEMP/Changelog.txt"
   MacTab - Changelog
 ==================================================
 
+Version 0.2.1 (23. Oktober 2026)
+--------------------------------------------------
+- Creative Commons CC BY-NC 4.0 Lizenzierung (Urheber: mrgoldsmitt).
+- Offizieller Open-Source Release auf GitHub (mrgoldsmitt/MacTab).
+- Automatisiertes Release-Tooling (deploy_release.sh) und Lizenzhinweise im DMG.
+
 Version 0.2.0 (21. Oktober 2026)
 --------------------------------------------------
 - Das echte Fenster wird auf dem Bildschirm farbig umrandet, solange es im
