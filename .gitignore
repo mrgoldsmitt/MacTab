@@ -1,0 +1,35 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode / Swift Package Manager Build Artifacts
+.build/
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+# App Bundles & Disk Images (Binary distribution artifacts)
+*.app/
+*.dmg
+.dmg_staging/
+
+# Temporary, Log & Environment Files
+*.tmp
+*.log
+.env
+.env.*
+*.swp
+*~
+
+# Credentials & Certificates
+*.pem
+*.key
+*.p12
+*.cer
+*.cert
