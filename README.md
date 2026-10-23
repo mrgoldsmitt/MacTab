@@ -1,5 +1,9 @@
 # MacTab 🪟⚡
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![macOS 13+](https://img.shields.io/badge/macOS-13.0%2B-blue.svg)](https://apple.com/macos)
+[![Swift 6](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
+
 Ein moderner, hochperformanter und stabiler Fenster-Umschalter (Alt-Tab Switcher) für macOS – inspiriert von der klassischen Windows Alt+Tab Navigation, von Grund auf neu entwickelt mit **Swift**, **SwiftUI** und **AppKit**.
 
 ---
@@ -152,6 +156,7 @@ MacTab/
 ├── Reset_Permissions.command        # TCC-Berechtigungen zurücksetzen
 ├── create_dmg.sh / Create_DMG.command          # MacTab.dmg erzeugen
 ├── deploy_release.sh                # Automatisiertes DMG-Build & GitHub Release Deployment
+├── LICENSE                          # Creative Commons CC BY-NC 4.0 Lizenztext
 ├── MacTab.app                       # Zuletzt gebautes App-Bundle (Build-Ergebnis)
 ├── MacTab.dmg                       # Disk Image zur Weitergabe (Build-Ergebnis)
 └── README.md
@@ -165,3 +170,21 @@ MacTab/
 - **Frameworks**: SwiftUI, AppKit, ApplicationServices (Accessibility), CoreGraphics
 - **Größe**: Nur ~700 KB (keine externen Abhängigkeiten oder Framework-Bloat)
 - **Kompatibilität**: macOS 13.0+ (Ventura, Sonoma, Sequoia) – Universal / Apple Silicon (M1/M2/M3/M4) optimiert.
+
+---
+
+## 📄 Lizenz & Urheberrecht
+
+Dieses Projekt steht unter der **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** Lizenz.
+
+Urheber & Copyright © 2026 **mrgoldsmitt** ([https://github.com/mrgoldsmitt](https://github.com/mrgoldsmitt)).
+
+### Was erlaubt ist:
+- ✅ **Teilen & Weiterverbreiten**: Du darfst das Projekt in jedem beliebigen Format oder Medium kopieren und weiterverbreiten.
+- ✅ **Bearbeiten & Anpassen**: Du darfst den Code anpassen, verändern und darauf aufbauen.
+
+### Bedingungen:
+- 👤 **Namensnennung (Attribution)**: Du musst angemessene Urheber- und Rechteangaben machen (Nennung von **mrgoldsmitt** mit Verweis auf das Repository [https://github.com/mrgoldsmitt/MacTab](https://github.com/mrgoldsmitt/MacTab)), einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+- 🚫 **Nicht-kommerziell (NonCommercial)**: Das Material sowie darauf basierende Werke dürfen **nicht zu kommerziellen Zwecken** verwendet werden.
+
+Die vollständigen Lizenzbedingungen findest du in der beiliegenden Datei [LICENSE](LICENSE) sowie online unter [Creative Commons CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.de).

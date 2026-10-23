@@ -254,7 +254,7 @@ public struct PreferencesView: View {
                 
                 HStack {
                     Spacer()
-                    Text("MacTab v0.2.0 • Pure Swift & Metal/CoreGraphics")
+                    Text("MacTab v0.2.0 • CC BY-NC 4.0 Lizenz • mrgoldsmitt")
                         .font(.caption)
                         .foregroundColor(.secondary)
                     Spacer()

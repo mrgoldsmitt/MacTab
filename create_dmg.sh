@@ -22,6 +22,9 @@ mkdir -p "$DMG_TEMP"
 # App kopieren
 cp -R "$DIR/MacTab.app" "$DMG_TEMP/MacTab.app"
 
+# Lizenz beilegen
+cp "$DIR/LICENSE" "$DMG_TEMP/LICENSE.txt"
+
 # Drag-and-Drop Symlink zu /Applications erstellen
 ln -s /Applications "$DMG_TEMP/Applications"
 
@@ -48,6 +51,11 @@ cat << 'EOF' > "$DMG_TEMP/Installationshinweis.txt"
    Drücke Option (Alt) + Tab, um durch deine Fenster
    zu blättern. Lass die Taste los, um zum gewählten
    Fenster zu wechseln!
+
+5. Lizenz:
+   Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)
+   Urheber: mrgoldsmitt (https://github.com/mrgoldsmitt/MacTab)
+   Kopieren & Verteilen erlaubt unter Nennung des Autors. Nicht-kommerziell.
 
 Viel Spaß mit MacTab!
 EOF

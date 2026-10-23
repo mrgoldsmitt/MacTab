@@ -56,6 +56,10 @@ Ein moderner, schlanker und hochperformanter nativer Fenster-Umschalter (Alt-Tab
 1. Lade unten unter **Assets** die Datei **`MacTab.dmg`** herunter.
 2. Öffne die DMG und ziehe **MacTab** in deinen Programme-Ordner (`Applications`).
 3. Starte MacTab und erteile die zwei notwendigen macOS-Berechtigungen (*Bedienungshilfen* und *Bildschirmaufnahme*).
+
+### 📄 Lizenz
+Lizenziert unter **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+Urheber & Copyright: **mrgoldsmitt** (Kopieren, Weitergeben und Modifizieren gestattet unter Namensnennung, keine kommerzielle Nutzung).
 EOF
 
 if gh release view "$TAG" &> /dev/null; then
